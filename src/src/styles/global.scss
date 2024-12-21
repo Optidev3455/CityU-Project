@@ -1,0 +1,123 @@
+@use './variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1505px) {
+    * {
+        background-color: $main-bg;
+    }
+
+
+    .main {
+        display: none;
+    }
+
+    .chkScreen {
+        user-select: none;
+        font-family: "Inter", sans-serif;
+        display: block;
+        z-index: 1000;
+        color: $soft-color;
+        text-align: center;
+        padding-top: 20%;
+
+        .positionContainer {
+            margin-top: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .monitor {
+                width: 200px;
+            }
+
+            .arrow {
+                width: 50px;
+
+                &.left {
+                    margin-right: 20px;
+                    animation: moveLeft 2s infinite;
+                }
+                &.right {
+                    margin-left: 20px;
+                    animation: moveRight 2s infinite;
+                }
+            }
+        }
+    }
+}
+
+@keyframes moveLeft {
+    
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes moveRight {
+    
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+@media only screen and (min-width: 1505px) {
+    .chkScreen > .screen, .positionContainer {
+        display: none;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $dark-bg;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $soft-bg;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    font-family: "Inter", sans-serif;
+    background-color: $main-bg;
+    color: $main-color;
+}
+
+.container {
+    display: flex;
+    margin-bottom: auto;
+}
+
+.menuContainer {
+    width: 250px;
+    padding: 5px 20px;
+    border-right: 2px solid $soft-bg;
+}
+
+.contentContainer {
+    padding: 5px 20px;
+    width: 100%;
+}

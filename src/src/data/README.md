@@ -1,0 +1,2 @@
+# Designer's Notes
+Due to the limitations of my skills, I'm unable to directly get the data from `.json` file into usable data to TypeScript, but I have a way around this as I've made some converters with Python. The scripts will do the update for users as users only have to paste in the json data and the TypeScript code into it and it will do the update for them. And just importing the data from `.ts` files seems easier for me to implement.

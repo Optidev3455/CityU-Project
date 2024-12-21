@@ -1,0 +1,30 @@
+@use '../../styles/variables' as *;
+
+.menu {
+    .item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        user-select: none;
+
+        .title {
+            font-size: small;
+            font-weight: 200;
+            color: $soft-color;
+        }
+
+        .listItem {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: .3s;
+
+            &:hover {
+                background-color: $soft-bg;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.topBox {
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .list {
+        .listItem {
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .name {
+                display: flex;
+                gap: 20px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    object-fit: cover;
+                }
+                .userTexts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .name {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                    .isle, .brand {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .amount {
+                font-size: 12;
+                font-weight: 400;
+            }
+        }
+    }
+}

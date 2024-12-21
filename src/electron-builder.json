@@ -1,0 +1,15 @@
+{
+    "appId": "com.optidev.dashboard",
+    "files": ["dist-electron", "dist-react"],
+    "icon": "./vite.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}

@@ -1,0 +1,41 @@
+@use '../../styles/variables' as *;
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+
+    @keyframes logo-spin {
+        0% {
+            transform: rotate(0)
+        }
+    
+        to {
+            transform: rotate(360deg)
+        }
+    }
+    
+    .logo {
+        align-items: center;
+        display: flex;
+        font-weight: bold;
+        gap: 10px;
+    }
+    
+    .logo img {
+        animation: logo-spin infinite 10s linear;
+        will-change: filter;
+        filter: drop-shadow(0 0 5px #61dafbaa);
+    }
+    
+    
+    .time {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 5px;
+    }
+}
