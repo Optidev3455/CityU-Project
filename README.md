@@ -1,4 +1,13 @@
-# YOLO Object Detection Project
+# City UEEGEF 2024 #1 Top Voted Project
+<h3>
+    This project won the #1 top voted award in the 2024 City UEEGEF programme <br><br>
+    This project is no longer being maintained.
+    <br>
+    Feel free to clone and play with it yourself. Make sure to follow the terms and conditions listed on the licence.
+
+</h3>
+
+# Group P03: YOLO Object Detection Project
 
 ## Overview
 
@@ -18,7 +27,7 @@ and management.
 
 To run this project, you need to have the following dependencies installed:
 
-- Python >= 3.10
+- Python <= 3.12.7
 - Ultralytics 8.3.39
 - Nvidia-cuda-runtime-cu12 12.6.77
 - Opencv-python 4.10.0.84
@@ -40,7 +49,7 @@ To run this project, you need to have the following dependencies installed:
 You can install the required python packages using the following command:
 
 > [!WARNING]
-> The command to install python dependencies only works with windows with python version 3.12
+> The command to install python dependencies only works with windows with python version 3.12.x
 
 ```bash
 pip install -r requirements.txt
