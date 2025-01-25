@@ -1,6 +1,6 @@
-# City UEEGEF 2024 #1 Top Voted Project
+# CityU GEF 2024 #1 Top Voted Project
 <h3>
-    This project won the #1 top voted award in the 2024 City UEEGEF programme <br><br>
+    This project won the #1 top voted award in the 2024 CityU GEF programme hosted by the Department of Electrical Engineering<br><br>
     This project is no longer being maintained.
     <br>
     Feel free to clone and play with it yourself. Make sure to follow the terms and conditions listed on the licence.
